@@ -17,6 +17,6 @@ spec:
      spec:
        containers:
           - name: nginx
-            image: "680532354232.dkr.ecr.us-east-1.amazonaws.com/bucketecr:latest"
+            image: "680532354232.dkr.ecr.us-east-1.amazonaws.com/saranecrrepo"
             ports:
-              - containerPort: 80
+              - containerPort: 8080
