@@ -18,7 +18,9 @@ spec:
        containers:
           - name: nginx
             image: "680532354232.dkr.ecr.us-east-1.amazonaws.com/saranecrrepo"
+            imagePullPolicy: Always
             ports:
               - containerPort: 8080
        imagePullSecrets:
-                 -  name: regcred
+         - name: regcred
+       
