@@ -20,3 +20,5 @@ spec:
             image: "680532354232.dkr.ecr.us-east-1.amazonaws.com/saranecrrepo"
             ports:
               - containerPort: 8080
+       imagePullSecrets:
+                 -  name: regcred
